@@ -25,7 +25,7 @@ app.get('/', (req, res) => {
 app.use(notFoundMiddleware);
 app.use(errorHandlerMiddleware);
 
-const dbURI = 'mongodb+srv://Arvind:1234@nodeexpressproject.v40dk2v.mongodb.net/Jobsapi?retryWrites=true&w=majority&appName=NodeExpressproject'
+const dbURI = 'enter you own URI '
 const port = process.env.PORT || 3000;
 
 const start = async () => {
